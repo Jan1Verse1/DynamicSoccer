@@ -12,7 +12,7 @@ const Hero = () => {
           Targeted and Impactful Youth Development through Sport Competition
         </h1>
         <button className="flex flex-row px-3 py-2 bg-black rounded-lg items-center justify-center text-sm text-white border-none h-10 w-max mt-4">
-          Become a sponsor
+          What We Do
         </button>
       </div>
       <div className="flex flex-row w-3/4 justify-between  mb-4 ">
