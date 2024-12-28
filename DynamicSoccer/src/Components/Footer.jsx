@@ -13,7 +13,7 @@ const Footer = () => {
   const Facebook = "https://www.facebook.com/dsscompetiton";
   const X = "https://twitter.com/@DynamicStreets ";
   const IG = "https://www.instagram.com/dssempowerment/";
-  // const LinkedIn = "https://www.linkedin.com/company/buckstrybe/";
+
   return (
     <div className="flex flex-row p-12  bg-[#525560] mt-4 justify-between">
       <h4 className="text-base font-normal text-white">
