@@ -32,7 +32,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Home = React.lazy(() => import("./Pages/Home"));
 const WhoWeAre = React.lazy(() => import("./Pages/Who"));
 const WhatWeDo = React.lazy(() => import("./Pages/What"));
-const Gallery = React.lazy(() => import("./Pages/Gallery"));
 const Contact = React.lazy(() => import("./Pages/Contact"));
 
 // const ContactUs = React.lazy(() => import("./Pages/ContactUs"));
@@ -63,14 +62,6 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/Gallery",
-    element: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Gallery />
-      </Suspense>
-    ),
-  },
-  {
     path: "/Contact",
     element: (
       <Suspense fallback={<div>Loading...</div>}>
@@ -78,14 +69,6 @@ const router = createBrowserRouter([
       </Suspense>
     ),
   },
-  // {
-  //   path: "/contactus",
-  //   element: (
-  //     <Suspense fallback={<div>Loading...</div>}>
-  //       <ContactUs />
-  //     </Suspense>
-  //   ),
-  // },
 ]);
 
 const App = () => {

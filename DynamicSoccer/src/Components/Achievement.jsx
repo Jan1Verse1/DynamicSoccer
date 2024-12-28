@@ -20,7 +20,7 @@ const Achievement = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <h1 className="text-5xl font-bold text-black mb-4">+20</h1>
+          <h1 className="text-5xl font-bold text-black mb-4">+10</h1>
           <p className="text-lg font-normal text-black text-center">Sponsors</p>
         </div>
         <div className="flex flex-col items-center">

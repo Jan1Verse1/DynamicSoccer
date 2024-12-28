@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="flex flex-row px-[3%] bg-white h-[120px] border border-red-500 items-center justify-between sticky top-0 z-[200]">
+      <header className="flex flex-row px-[3%] bg-white h-[120px]  items-center justify-between sticky top-0 z-[200]">
         <div className="flex flex-row justify-between w-full">
           <div>
             <img
@@ -26,31 +26,26 @@ const Header = () => {
           </div>
           <div className="hidden md:flex flex-row justify-around">
             <ul className="flex flex-row justify-around text-black">
-            <li className="p-4">
-              <Link to="/" onClick={() => setNav(false)}>
-                Home
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link to="/WhatWeDo" onClick={() => setNav(false)}>
-                What we do
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link to="/WhoWeAre" onClick={() => setNav(false)}>
-                Who we are
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link to="/Gallery" onClick={() => setNav(false)}>
-                Gallery
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link to="/Contact" onClick={() => setNav(false)}>
-                Contact Us
-              </Link>
-            </li>
+              <li className="p-4">
+                <Link to="/" onClick={() => setNav(false)}>
+                  Home
+                </Link>
+              </li>
+              <li className="p-4">
+                <Link to="/WhatWeDo" onClick={() => setNav(false)}>
+                  What we do
+                </Link>
+              </li>
+              <li className="p-4">
+                <Link to="/WhoWeAre" onClick={() => setNav(false)}>
+                  Who we are
+                </Link>
+              </li>
+              <li className="p-4">
+                <Link to="/Contact" onClick={() => setNav(false)}>
+                  Contact Us
+                </Link>
+              </li>
             </ul>
             <button className="flex flex-row px-3 py-2 bg-black rounded-lg items-center justify-center text-sm text-white border-none h-10 w-max mt-1">
               Become a sponsor
@@ -79,11 +74,6 @@ const Header = () => {
             <li className="p-4">
               <Link to="/WhoWeAre" onClick={() => setNav(false)}>
                 Who we are
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link to="/Gallery" onClick={() => setNav(false)}>
-                Gallery
               </Link>
             </li>
             <li className="p-4">
