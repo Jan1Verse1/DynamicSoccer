@@ -48,7 +48,10 @@ const Header = () => {
               </li>
             </ul>
             <button className="flex flex-row px-3 py-2 bg-black rounded-lg items-center justify-center text-sm text-white border-none h-10 w-max mt-1">
-              Become a sponsor
+              <a href=" https://wa.me/2347080226755" target="blank">
+                {" "}
+                Become a sponsor
+              </a>
             </button>
           </div>
           <IoMenu
@@ -83,7 +86,9 @@ const Header = () => {
             </li>
           </ul>
           <button className="flex flex-row px-3 py-2 bg-black rounded-lg items-center justify-center text-sm text-white border-none h-10 w-max mt-1">
-            Become a sponsor
+            <a href=" https://wa.me/2347080226755" target="blank">
+              Become a sponsor
+            </a>
           </button>
         </div>
       )}

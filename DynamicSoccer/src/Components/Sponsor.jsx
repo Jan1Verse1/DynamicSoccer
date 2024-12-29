@@ -21,7 +21,10 @@ const Sponsor = () => {
             difference, one game at a time.
           </p>
           <button className="flex flex-row px-3 py-2 rounded-lg items-center justify-center text-sm text-white border-2 border-gray-100 h-10 w-max mt-12">
-            Become a sponsor
+            <a href=" https://wa.me/2347080226755" target="blank">
+              {" "}
+              Become a sponsor
+            </a>
           </button>
         </div>
       </div>
