@@ -123,7 +123,7 @@ const What = () => {
   return (
     <div>
       <Header />
-      <div className="flex flex-row w-2/4 p-10">
+      <div className="flex flex-row w-2/4 p-10 xs:flex-col w-full">
         <div className="h-[1px] w-1/4 bg-black mr-2"></div>
         <div className="flex flex-col align-baseline">
           <p className="text-lg font-normal text-black">
@@ -135,13 +135,13 @@ const What = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-5 gap-5 w-full p-10  ">
+      <div className="grid grid-cols-5 gap-5 w-full p-10 xs:grid-cols-2 ">
         {images.map((image, index) => (
           <img
             key={index}
             src={image}
             alt={`image ${index + 1}`}
-            className="h-72 w-auto ursor-pointer hover:opacity-75 transition-opacity duration-300"
+            className="h-72 w-auto cursor-pointer hover:opacity-75 transition-opacity duration-300 xs:max-h-44 w-44"
             onClick={() => openModal(image)} // Open modal on click
           />
         ))}

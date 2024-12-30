@@ -13,6 +13,9 @@ export default {
         marquee: "marquee 20s linear infinite",
       },
     },
+    screens: {
+      xs: { max: "639px" }, // Custom breakpoint for screens smaller than 640px
+    },
   },
   plugins: [],
 };

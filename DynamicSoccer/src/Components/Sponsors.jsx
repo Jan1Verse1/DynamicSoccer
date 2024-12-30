@@ -25,11 +25,11 @@ const Sponsors = () => {
   ];
 
   return (
-    <div className="flex flex-col p-12 h-auto bg-[#FAF7F2] items-center">
+    <div className="flex flex-col p-12 h-auto bg-[#FAF7F2] items-center overflow-hidden">
       <h4 className="text-xl font-bold text-black  mb-12">
         Our Sponsors over the years
       </h4>
-      <div className="flex w-full animate-marquee space-x-16">
+      <div className="flex w-full animate-marquee space-x-16 sm:overflow-hidden">
         {logos.map((logo, index) => (
           <img
             key={index}
@@ -39,43 +39,6 @@ const Sponsors = () => {
           />
         ))}
       </div>
-      {/* <div className="flex flex-row justify-between">
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={LASG}
-          alt="LASG Logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={BukkaHut}
-          alt="BukkaHut logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={FanMilk}
-          alt="Fan-Milk Logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={Kelloggs}
-          alt="Kelloggs Logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={Glo}
-          alt="Glo Logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={MaltaG}
-          alt="Malta Guinness Logo"
-        />
-        <img
-          className="w-40 h-40 mr-9 cursor-pointer"
-          src={MunchIt}
-          alt="Munch It Logo"
-        />
-      </div> */}
     </div>
   );
 };

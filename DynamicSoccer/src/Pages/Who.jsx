@@ -8,7 +8,7 @@ const Who = () => {
   return (
     <div>
       <Header />
-      <div className="flex flex-row w-2/4 p-10">
+      <div className="flex flex-row w-2/4 p-10 xs: flex-col w-full">
         <div className="h-[1px] w-1/4 bg-black mr-2"></div>
         <div className="flex flex-col align-baseline">
           <p className="text-lg font-normal text-black">WHO WE ARE</p>
@@ -18,15 +18,15 @@ const Who = () => {
           </h1>
         </div>
       </div>
-      <div className="p-20">
+      <div className="p-20 xs:p-8">
         <div
           className="flex flex-col  bg-white h-[720px] w-full  rounded-xl bg-cover bg-center bg-no-repeat items-center  "
           style={{ backgroundImage: `url(${BackgroundImage})` }}
         ></div>
       </div>
 
-      <div className="grid grid-cols-2 w-full p-20 items-center justify-around gap-12 h-auto bg-[#FAF7F2] ">
-        <div className="flex flex-col">
+      <div className="grid grid-cols-2 w-full p-20 items-center justify-around gap-12 h-auto bg-[#FAF7F2] xs:grid-cols-1  p-8">
+        <div className="flex flex-col xs: w-full">
           <p className="text-base font-light text-black">our mission</p>
           <h2 className="text-4xl font-bold text-black mb-4">
             To empower the youth through health, sports and entertainment for a

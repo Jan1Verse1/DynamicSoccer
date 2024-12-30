@@ -19,8 +19,8 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <div className="grid grid-cols-2 w-full p-8 justify-around gap-12 h-auto bg-[#FAF7F2]">
-        <div className="flex flex-row w-full p-2">
+      <div className="grid grid-cols-2 w-full p-8 justify-around gap-12 h-auto bg-[#FAF7F2] xs:grid-cols-1">
+        <div className="flex flex-row w-full p-2 xs:flex-col w-full">
           <div className="h-[1px] w-1/4 bg-black mr-2"></div>
           <div className="flex flex-col align-baseline">
             <p className="text-lg font-normal text-black">CONTACT US</p>
@@ -37,7 +37,7 @@ const Contact = () => {
         <div className="grid grid-rows-3 gap-12 ">
           <div className="flex flex-col w-full">
             <h2 className="text-xl font-bold text-black mb-4">Let's talk! </h2>
-            <div className="flex flex-row">
+            <div className="flex flex-row xs:flex-col">
               <p className="text-lg font-normal text-black mr-8">
                 0708 022 6755, 0802 758 147
               </p>

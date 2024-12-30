@@ -3,16 +3,16 @@ import partakeImg from "../assets/images/image00018.jpeg";
 
 const Partake = () => {
   return (
-    <div className="p-20 ">
+    <div className="p-20 xs:p-4">
       <div
-        className="flex flex-col px-[3%] bg-white h-[480px]  w-full p-20 justify-items-center bg-cover bg-center bg-no-repeat items-center rounded-xl "
+        className="flex flex-col px-[3%] bg-white h-[480px]  w-full p-20 justify-items-center bg-cover bg-center bg-no-repeat items-center rounded-xl xs:px-0 p-4"
         style={{ backgroundImage: `url(${partakeImg})` }}
       >
         <div className="flex flex-col w-3/4 items-center ">
-          <h2 className="text-5xl font-bold text-white text-center mb-4">
+          <h2 className="text-5xl font-bold text-white text-center mb-4 xs:text-lg">
             You can partake in the next edition of the Dynamic Street Soccer.
           </h2>
-          <p className="text-lg font-normal text-white text-center">
+          <p className="text-lg font-normal text-white text-center xs:text-sm">
             The next edition of Dynamic Street Soccer is here, and it’s bigger
             and better than ever! Sign up today and immerse yourself in a
             dynamic environment filled with action, camaraderie, and
