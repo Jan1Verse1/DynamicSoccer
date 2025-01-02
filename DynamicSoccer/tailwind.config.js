@@ -11,13 +11,8 @@ export default {
       },
       animation: {
         marquee: "marquee 20s linear infinite",
+        "marquee-sm": "marquee 25s linear infinite", // Slower animation for smaller screens
       },
-      animation: {
-        marquees: "marquee 40s linear infinite",
-      },
-    },
-    screens: {
-      xs: { max: "639px" }, // Custom breakpoint for screens smaller than 640px
     },
   },
   plugins: [],

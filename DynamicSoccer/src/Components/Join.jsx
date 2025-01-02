@@ -4,7 +4,7 @@ import SportImg from "../assets/images/image00003.jpeg";
 const Join = () => {
   return (
     <div className="grid grid-cols-2 gap-x-10 p-12 align-middle justify-items-center xs:grid-cols-1 p-8 gap-x-2  ">
-      <div className="flex flex-col px-[3%] bg-white h-[720px] w-full p-20 justify-items-center xs:h-[240px] p-2 mb-8 ">
+      <div className="flex flex-col bg-white h-[720px] w-full  justify-items-center xs:h-[240px] mb-8 ">
         <img src={SportImg} alt="Sport Image" />
       </div>
       <div className="flex flex-col p-20 xs:p-4 items-center ">
@@ -18,7 +18,9 @@ const Join = () => {
           discipline and teamwork.
         </p>
         <button className="flex flex-row px-3 py-2 bg-black rounded-lg items-center justify-center text-sm text-white border-none h-10 w-max mt-4">
-          Join our Sponsors
+          <a href=" https://wa.me/2347080226755" target="blank">
+            Join our Sponsors
+          </a>
         </button>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="flex flex-row px-[3%] bg-white h-[120px]  items-center justify-between sticky top-0 z-[200]">
+      <header className="flex flex-row p-4 bg-white h-[120px]  items-center justify-between sticky top-0 z-[200]">
         <div className="flex flex-row justify-between w-full">
           <div>
             <img

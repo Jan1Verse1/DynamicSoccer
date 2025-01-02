@@ -5,10 +5,10 @@ const Sponsor = () => {
   return (
     <div className="p-20 xs:p-4">
       <div
-        className="flex flex-col px-[3%] bg-white h-[480px]  w-full justify-items-center bg-cover bg-center bg-no-repeat items-center rounded-xl xs:px-0 p-4"
+        className="flex flex-col bg-white h-[480px] p-24  w-full justify-items-center bg-cover bg-center bg-no-repeat items-center rounded-xl xs:p-10"
         style={{ backgroundImage: `url(${sponsorImg})` }}
       >
-        <div className="flex flex-col w-3/4 items-center">
+        <div className="flex flex-col w-full items-center">
           <h2 className="text-5xl font-bold text-white text-center mb-4 xs:text-lg">
             Join us in creating a brighter future for young adult everywhere
           </h2>

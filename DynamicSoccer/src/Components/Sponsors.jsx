@@ -25,17 +25,17 @@ const Sponsors = () => {
   ];
 
   return (
-    <div className="flex flex-col p-12 h-auto bg-[#FAF7F2] items-center overflow-hidden">
+    <div className="flex flex-col p-12 h-auto bg-[#FAF7F2] items-center overflow-hidden xs:p-4">
       <h4 className="text-xl font-bold text-black  mb-12">
         Our Sponsors over the years
       </h4>
-      <div className="flex w-full animate-marquee space-x-16 xs:space-x-4 animate-marquees">
+      <div className="flex w-full animate-marquee space-x-16 xs:space-x-4 ">
         {logos.map((logo, index) => (
           <img
             key={index}
             src={logo}
             alt={`Sponsor ${index + 1}`}
-            className="h-32 w-auto xs: h-24 w-24"
+            className="h-32 w-auto xs:h-24  "
           />
         ))}
       </div>

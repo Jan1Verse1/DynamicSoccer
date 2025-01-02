@@ -32,11 +32,12 @@
 
 import React from "react";
 import BackgroundImage from "../assets/images/bgimg.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div
-      className="flex flex-col px-[3%] bg-white h-[720px] w-full p-20 justify-items-center bg-cover bg-center bg-no-repeat items-center xs:h-auto xs:p-4"
+      className="flex flex-col bg-white h-[720px] w-full p-20 justify-items-center bg-cover bg-center bg-no-repeat items-center xs:h-auto xs:p-4"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
     >
       <div className="w-3/4 mb-24 sm:w-3/4">
@@ -44,7 +45,9 @@ const Hero = () => {
           Targeted and Impactful Youth Development through Sport Competition
         </h1>
         <button className="flex px-3 py-2 bg-black rounded-lg text-sm text-white h-10 mt-4">
-          What We Do
+          <Link to="WhatWeDo" onClick={() => setNav(false)}>
+            What We Do
+          </Link>
         </button>
       </div>
       <div className="flex flex-row w-3/4 items-center justify-between mb-4 xs:flex-col">
