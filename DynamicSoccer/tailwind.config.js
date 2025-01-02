@@ -11,7 +11,10 @@ export default {
       },
       animation: {
         marquee: "marquee 20s linear infinite",
-        "marquee-sm": "marquee 25s linear infinite", // Slower animation for smaller screens
+        "marquee-sm": "marquee 25s linear infinite", // Optional slower for smaller screens
+      },
+      screens: {
+        xs: { max: "639px" },
       },
     },
   },

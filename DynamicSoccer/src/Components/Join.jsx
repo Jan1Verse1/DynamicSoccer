@@ -4,7 +4,7 @@ import SportImg from "../assets/images/image00003.jpeg";
 const Join = () => {
   return (
     <div className="grid grid-cols-2 gap-x-10 p-12 align-middle justify-items-center xs:grid-cols-1 p-8 gap-x-2  ">
-      <div className="flex flex-col bg-white h-[720px] w-full  justify-items-center xs:h-[240px] mb-8 ">
+      <div className="flex flex-col bg-white  w-full  justify-items-center xs:mb-8 ">
         <img src={SportImg} alt="Sport Image" />
       </div>
       <div className="flex flex-col p-20 xs:p-4 items-center ">
