@@ -8,7 +8,7 @@ const Who = () => {
   return (
     <div>
       <Header />
-      <div className="flex flex-row w-2/4 p-10 xs: flex-col w-full">
+      <div className="flex flex-row w-2/4 p-10 xs:flex-col w-full">
         <div className="h-[1px] w-1/4 bg-black mr-2"></div>
         <div className="flex flex-col align-baseline">
           <p className="text-lg font-normal text-black">WHO WE ARE</p>
@@ -20,7 +20,7 @@ const Who = () => {
       </div>
       <div className="p-20 xs:p-8">
         <div
-          className="flex flex-col  bg-white h-[720px] w-full  rounded-xl bg-cover bg-center bg-no-repeat items-center  "
+          className="flex flex-col  bg-white h-[720px] w-full  rounded-xl bg-cover bg-center bg-no-repeat items-center xs:h-[400px]  "
           style={{ backgroundImage: `url(${BackgroundImage})` }}
         ></div>
       </div>

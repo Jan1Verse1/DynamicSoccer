@@ -7,7 +7,7 @@ const Join = () => {
       <div className="flex flex-col bg-white  w-full  justify-items-center xs:mb-8 ">
         <img src={SportImg} alt="Sport Image" />
       </div>
-      <div className="flex flex-col p-20 xs:p-4 items-center ">
+      <div className="flex flex-col p-20 xs:p-4">
         <h2 className="text-5xl font-bold text-black mb-4 xs:text-center ">
           Join us in creating a brighter future for young adults everywhere
         </h2>
