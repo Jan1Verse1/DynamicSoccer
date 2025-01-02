@@ -28,7 +28,7 @@ const Who = () => {
       <div className="grid grid-cols-2 w-full p-20 items-center justify-around gap-12 h-auto bg-[#FAF7F2] xs:grid-cols-1  p-8">
         <div className="flex flex-col xs: w-full">
           <p className="text-base font-light text-black">our mission</p>
-          <h2 className="text-4xl font-bold text-black mb-4 xs:text-4xl">
+          <h2 className="text-4xl font-bold text-black mb-4 xs:text-3xl">
             To empower the youth through health, sports and entertainment for a
             better future.
           </h2>

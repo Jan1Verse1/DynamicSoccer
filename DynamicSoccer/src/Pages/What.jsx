@@ -129,7 +129,7 @@ const What = () => {
           <p className="text-lg font-normal text-black">
             EDITIONS WE HAVE DONE
           </p>
-          <h1 className="text-5xl font-bold text-black mb-4 xs:text-4xl">
+          <h1 className="text-5xl font-bold text-black mb-4 xs:text-3xl">
             We are creating a world where sports is a tool of empowerment
           </h1>
         </div>
