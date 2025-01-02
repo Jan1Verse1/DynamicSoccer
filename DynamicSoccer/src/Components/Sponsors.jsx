@@ -13,14 +13,14 @@ import mallmart from "../assets/images/mallmart.jpeg";
 const Sponsors = () => {
   const logos = [
     LASG,
+    MaltaG,
+    Glo,
+    LSSC,
     LASHMA,
-    BukkaHut,
     FanMilk,
     Kelloggs,
-    Glo,
-    MaltaG,
     MunchIt,
-    LSSC,
+    BukkaHut,
     mallmart,
   ];
 
@@ -29,13 +29,13 @@ const Sponsors = () => {
       <h4 className="text-xl font-bold text-black  mb-12">
         Our Sponsors over the years
       </h4>
-      <div className="flex w-full animate-marquee space-x-16 sm:overflow-hidden">
+      <div className="flex w-full animate-marquee space-x-16 xs:space-x-4 animate-marquees">
         {logos.map((logo, index) => (
           <img
             key={index}
             src={logo}
             alt={`Sponsor ${index + 1}`}
-            className="h-32 w-auto "
+            className="h-32 w-auto xs: h-24 w-24"
           />
         ))}
       </div>
