@@ -21,7 +21,7 @@ import Image16 from "../assets/images/image00016.jpeg";
 import Image17 from "../assets/images/image00017.jpeg";
 import Image18 from "../assets/images/image00018.jpeg";
 import Image19 from "../assets/images/image00019.jpeg";
-//import Image20 from "../assets/images/image00020.jpeg";
+import Image20 from "../assets/images/newimage.jpeg";
 import Image21 from "../assets/images/image00021.jpeg";
 import Image22 from "../assets/images/image00022.jpeg";
 //import Image23 from "../assets/images/image00023.jpeg";
@@ -74,7 +74,7 @@ const What = () => {
     Image17,
     Image18,
     Image19,
-    //Image20,
+    Image20,
     Image21,
     Image22,
     //Image23,

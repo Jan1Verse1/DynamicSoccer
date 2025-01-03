@@ -32,13 +32,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-4">
-                <Link to="/WhatWeDo" onClick={() => setNav(false)}>
-                  What we do
+                <Link to="/WhoWeAre" onClick={() => setNav(false)}>
+                  Who we are
                 </Link>
               </li>
               <li className="p-4">
-                <Link to="/WhoWeAre" onClick={() => setNav(false)}>
-                  Who we are
+                <Link to="/WhatWeDo" onClick={() => setNav(false)}>
+                  What we do
                 </Link>
               </li>
               <li className="p-4">
@@ -70,13 +70,13 @@ const Header = () => {
               </Link>
             </li>
             <li className="p-4">
-              <Link to="/WhatWeDo" onClick={() => setNav(false)}>
-                What we do
+              <Link to="/WhoWeAre" onClick={() => setNav(false)}>
+                Who we are
               </Link>
             </li>
             <li className="p-4">
-              <Link to="/WhoWeAre" onClick={() => setNav(false)}>
-                Who we are
+              <Link to="/WhatWeDo" onClick={() => setNav(false)}>
+                What we do
               </Link>
             </li>
             <li className="p-4">
